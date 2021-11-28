@@ -5,7 +5,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.6rem;
+     font-size: 2rem;
     color: var(--primary-color);
     line-height: 1.5;
 }
@@ -78,4 +78,21 @@ table td, table th {
 
 table tfoot td, table th{
     background: var(--light-gray-color);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a  {
+    color: #444444;
+}
+
+.heart {
+    color: var(--secondary-color);
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
 }

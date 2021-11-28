@@ -1,6 +1,6 @@
 .intro-content {
     position: relative;
-    top: -8rem;
+    /* top: -8rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     align-items: stretch;
@@ -17,4 +17,10 @@
 .intro-img img {
     max-width: 100%;
     min-height: auto;
+}
+
+@media (max-width: 800px) {
+    .intro-content {
+        grid-template-columns: 1fr;
+    }
 }
