@@ -6,6 +6,7 @@
 @import url('intro.css');
 @import url('top-three.css');
 @import url('grid.css');
+@import url('gallery.css');
 
 * {
     margin: 0;
